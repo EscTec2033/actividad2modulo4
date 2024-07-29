@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVIDAD 2 MÓDULO 4</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Actividad 2, Modulo 4</h1>
+    <ol>
+        <li class="tm">¿Qué son los Modelos de estimación?</li>
+        <p>Son herramientas y técnicas utilizadas para prever el esfuerzo, tiempo y costos necesarios para desarrollar proyectos de software. Estos modelos, que incluyen enfoques empíricos como COCOMO y Function Point Analysis, analíticos como SEER, y basados en datos históricos y aprendizaje automático, ayudan a planificar y gestionar proyectos al proporcionar predicciones basadas en variables como el tamaño del software, la complejidad y la experiencia del equipo. Su propósito es establecer expectativas realistas y asignar recursos de manera efectiva, minimizando riesgos y optimizando la gestión del proyecto.</p>
+        <li class="tm">Investiga sobre diferentes modelos de estimación utilizados en la industria del desarrollo de software, como el modelo COCOMO o el método de puntos de función. Compara y contrasta dos modelos de estimación y explica en qué situaciones serían más adecuados.</li>
+        <p>En la industria del desarrollo de software, dos modelos de estimación prominentes son el modelo COCOMO y el método de puntos de función. El modelo COCOMO (COnstructive COst MOdel) se basa en la estimación del esfuerzo y el costo del desarrollo en función del tamaño del software, generalmente medido en líneas de código (LOC). Utiliza una fórmula matemática que considera factores como la complejidad del proyecto, la experiencia del equipo y el entorno de desarrollo. Por otro lado, el método de puntos de función mide el tamaño del software en términos de funcionalidades desde el punto de vista del usuario, considerando aspectos como entradas, salidas, archivos internos y consultas. El método convierte estos puntos de función en estimaciones de esfuerzo y costo mediante factores ajustables que reflejan la complejidad y el entorno del proyecto.</p>
+        <p>COCOMO es más adecuado para proyectos donde se tiene una estimación previa del tamaño del código y cuando se dispone de datos históricos de proyectos similares para ajustar los parámetros del modelo. Su fortaleza radica en su capacidad para ajustar las estimaciones en función de varios factores del proyecto. El método de puntos de función, en cambio, es preferible en situaciones donde el enfoque está en las funcionalidades del sistema y cuando se desea evitar la dependencia de detalles específicos del código durante las primeras fases del proyecto. Es particularmente útil en etapas tempranas de planificación cuando el código aún no está definido, ya que se centra en las necesidades y requerimientos del usuario. Ambos modelos ofrecen valiosos enfoques para la estimación, pero la elección entre ellos depende de la disponibilidad de datos y la fase del proyecto en la que se encuentre.</p>
+        <li class="tm">¿A que llamamos la estimación de un proyecto de software?</li>
+        <p>La estimación de un proyecto de software se refiere al proceso de prever y calcular los recursos necesarios, como el tiempo, el esfuerzo y el costo, para completar el desarrollo de un software específico. Este proceso implica analizar diversos factores como el tamaño del software, la complejidad del proyecto, la experiencia del equipo y las condiciones del entorno de desarrollo. Las estimaciones son cruciales para la planificación y gestión del proyecto, ya que proporcionan una base para la asignación de recursos, la programación de tareas y la evaluación de viabilidad. Unas estimaciones precisas permiten gestionar expectativas, controlar presupuestos y asegurar la entrega a tiempo, minimizando riesgos y optimizando el uso de recursos durante todo el ciclo de vida del proyecto.</p>
+        <li class="tm">Enumera y explica brevemente los principios esenciales para el desarrollo de sistemas, como la modularidad, la cohesión, el acoplamiento y la abstracción. Elige uno de los principios y da un ejemplo de cómo se podría aplicar en el desarrollo de un sistema.</li>
+        <ol>
+            <li>Modularidad:</li>
+            <ul>
+                <li>Definición: Divide el sistema en módulos independientes que encapsulan una parte específica del comportamiento del sistema. Cada módulo tiene una interfaz definida y realiza funciones que se relacionan estrechamente entre sí.</li>
+                <li>Beneficio: Facilita el desarrollo, pruebas, mantenimiento y escalabilidad del sistema.</li>
+            </ul>
+            <li>Cohesión:</li>
+            <ul>
+                <li>Definición: Mide el grado en que las funcionalidades dentro de un módulo están relacionadas entre sí. Un módulo altamente cohesivo realiza una tarea específica de manera eficiente y clara.</li>
+                <li>Beneficio: Mejora la claridad del código y la facilidad para mantener y entender el módulo.</li>
+            </ul>
+            <li>Acoplamiento:</li>
+            <ul>
+                <li>Definición: Describe el grado de dependencia entre módulos. Un acoplamiento bajo significa que los módulos interactúan entre sí de forma mínima y con interfaces bien definidas.</li>
+                <li>Beneficio: Reduce el impacto de los cambios en un módulo sobre otros, facilitando la evolución y el mantenimiento del sistema.</li>
+            </ul>
+            <li>Abstracción:</li>
+            <ul>
+                <li>Definición: Oculta los detalles complejos del sistema y presenta solo las interfaces esenciales que permiten la interacción con el sistema. Esto simplifica la comprensión y el uso del sistema.</li>
+                <li>Beneficio: Permite trabajar con conceptos generales sin necesidad de conocer los detalles internos, facilitando la reutilización y el diseño.</li>
+            </ul>
+        </ol>
+        <p>Ejemplo de Aplicación de Cohesión:</p>
+        <p>Supongamos que estamos desarrollando un sistema de gestión de proyectos. Aplicar el principio de cohesión significaría diseñar módulos que estén claramente enfocados en una sola responsabilidad. Por ejemplo:</p>
+        <ul>
+            <Li>Módulo de Gestión de Tareas: Este módulo se encarga exclusivamente de crear, asignar, y rastrear tareas dentro de un proyecto. Todas las funciones relacionadas con la gestión de tareas, como agregar nuevas tareas, cambiar el estado de una tarea, y asignar tareas a miembros del equipo, se encuentran en este módulo.</Li>
+        </ul>
+        <p>La alta cohesión en el módulo de gestión de tareas significa que todas las funciones dentro del módulo están orientadas hacia la gestión de tareas, lo que facilita su comprensión y mantenimiento. Si se requiere modificar cómo se gestionan las tareas, las modificaciones se realizarán en un lugar centralizado sin afectar otras partes del sistema. Esto también mejora la capacidad de reutilización del módulo en otros proyectos de gestión de tareas similares.</p>
+        <li class="tm">Crea una lista de las partes interesadas (stakeholders) que podrían estar involucradas en un proyecto de desarrollo de software para una aplicación móvil. Para cada parte interesada, identifica sus roles, responsabilidades y posibles expectativas con respecto al proyecto.</li>
+        <ul>
+            <li>Clientes/Patrocinadores: Definen los objetivos del proyecto y proporcionan financiamiento, esperando una aplicación que cumpla con sus requisitos, se entregue a tiempo y dentro del presupuesto.</li>
+            <li>Usuarios Finales: Utilizan la aplicación y ofrecen retroalimentación sobre su usabilidad y funcionalidad, esperando una experiencia intuitiva y eficiente.</li>
+            <li>Equipo de Desarrollo (Desarrolladores y Diseñadores): Construyen y diseñan la aplicación, esperando requisitos claros y acceso a herramientas necesarias para cumplir con los plazos y estándares de calidad.</li>
+            <li>Gerente de Proyecto: Coordina el proyecto, gestionando el equipo y el presupuesto, y espera claridad en los requisitos y apoyo de todas las partes interesadas para manejar riesgos y problemas.</li>
+            <li>Especialistas en QA (Control de Calidad): Se encargan de probar la aplicación para garantizar su calidad, esperando acceso completo al software y documentación detallada para identificar y resolver defectos.</li>
+        </ul>
+        <li class="tm">Diseña un plan de proyecto en el que se definan las diferentes fases y actividades necesarias para desarrollar un sistema de gestión de inventario. Asocia cada actividad con su respectiva fase y establece las dependencias lógicas entre ellas.</li>
+        <p>Para desarrollar un sistema de gestión de inventario, el plan de proyecto se organiza en fases secuenciales con actividades específicas y sus dependencias lógicas. En la Fase de Inicio, se define el alcance del proyecto y se establece el equipo del proyecto. La Fase de Planificación sigue con el análisis de requisitos y la planificación del proyecto, basándose en los entregables y equipo definidos anteriormente. La Fase de Diseño incluye el diseño de la arquitectura del sistema, la interfaz de usuario y la base de datos, dependientes del análisis de requisitos y diseño de arquitectura. En la Fase de Desarrollo, se implementan el backend y el frontend, utilizando los diseños previos. La Fase de Pruebas abarca las pruebas de unidad, integración y de usuario, para asegurar la funcionalidad completa y la satisfacción del cliente. Finalmente, en la Fase de Implementación, se despliega el sistema y se capacita a los usuarios, seguido por la Fase de Mantenimiento, donde se monitorea el sistema y se realizan actualizaciones basadas en la retroalimentación recibida. Cada fase y actividad depende de la finalización exitosa de las fases y actividades previas para asegurar un desarrollo coherente y efectivo del sistema.</p>
+        <li class="tm">Elabora un conjunto de normas y estándares que deben seguirse en el desarrollo de software para garantizar la consistencia en la codificación y la documentación. Proporciona ejemplos concretos de cómo se aplicarían estas normas en la práctica.</li>
+        <p>Para garantizar la consistencia en el desarrollo de software, se deben seguir normas y estándares rigurosos tanto en codificación como en documentación. Normas de codificación incluyen seguir una guía de estilo uniforme, como la convención de nombres, donde se deben usar nombres descriptivos y consistentes para variables y funciones, por ejemplo, calculateTotalAmount en lugar de calcTotAmt. Además, se debe mantener una identación y formato consistente, como usar 4 espacios para la indentación y colocar llaves en la misma línea para bloques de código. Las normas de documentación requieren comentarios claros y útiles, como usar comentarios // TODO para marcar tareas pendientes y /* @param */ para documentar los parámetros de las funciones. Documentación adicional debe incluir descripciones detalladas de la arquitectura del sistema y el uso de cada módulo en archivos README.md o similares. En la práctica, al desarrollar una función, los programadores deben asegurarse de que el nombre de la función y sus comentarios sean descriptivos y que el código siga el estilo acordado para que sea fácilmente entendible y mantenible por otros miembros del equipo.</p>
+    </ol>
+</body>
+</html>
